@@ -1,0 +1,15 @@
+#Tests
+TESTING = True
+WTF_CSRF_ENABLED = False
+
+# Flask
+SQLALCHEMY_DATABASE_URI = ''
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+SECRET_KEY = ''
+
+# Email
+FROM_EMAIL_DOMAIN = ''
+MAIL_GUN_KEY = ''
+
+# Cache
+CACHE_TYPE = 'simple'

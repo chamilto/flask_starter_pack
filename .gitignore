@@ -1,0 +1,6 @@
+.idea/
+*.pyc
+local.cfg
+prod.cfg
+*.rdb
+
