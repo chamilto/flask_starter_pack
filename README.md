@@ -37,8 +37,6 @@ in your config file.
 * Redis Flask-Cache config example in default.cfg
 
 [Redis Quickstart](https://redis.io/topics/quickstart)
-
-Assuming you have already pip installed the requirements:
 ```
 # without config
 $ redis-server
