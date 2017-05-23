@@ -1,4 +1,4 @@
-# Flask Starter Pack
+# Flask API Starter Pack
 Small starter pack for a Flask JSON API.
 * JWT Authentication
 * Tests
