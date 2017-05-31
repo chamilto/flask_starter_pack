@@ -34,7 +34,6 @@ class User(db.Model):
     last_name = db.Column(db.String(128))
     created = db.Column(db.DateTime())
     updated = db.Column(db.DateTime())
-    registered = db.Column(db.DateTime)
     registration_code = db.Column(db.Integer)
     registration_confirmed = db.Column(db.Boolean)
 
