@@ -12,6 +12,7 @@ manager = Manager(app)
 class InitDB(Command):
     def run(self):
         db.create_all()
+        db.session.commit()
 
 
 manager.add_command('db', MigrateCommand)
