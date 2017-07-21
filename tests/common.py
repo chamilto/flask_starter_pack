@@ -14,6 +14,7 @@ class BaseTest(TestCase):
     def setUpClass(cls):
         with cls._app.app_context():
             db.create_all()
+            db.session.commit()
 
     @classmethod
     def tearDownClass(cls):
