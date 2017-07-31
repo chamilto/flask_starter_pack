@@ -44,7 +44,7 @@ $ redis-server
 
 ## Running the tests
 
-```$ nosetest -v tests```
+```$ nosetests -v tests```
 
 ## Email
 To accompany the example registration and registration confirmation handlers, I included a simple function that calls the Mailgun API to send our emails.
